@@ -18,13 +18,13 @@ int main() {
     do
     {
         if (!b_error) {
-            cout << "Please enter "; //<< endl;
-            cout << "A for increment by thousand, "; //<< endl;
-            cout << "S for increment by hundred, "; //<< endl;
-            cout << "D for increment by ten, "; //<< endl;
-            cout << "F for increment by one, "; //<< endl;
-            cout << "R for reset, "; //<< endl;
-            cout << "X for exit: "; //<< endl;
+            cout << "Please enter ";
+            cout << "A for increment by thousand, ";
+            cout << "S for increment by hundred, ";
+            cout << "D for increment by ten, ";
+            cout << "F for increment by one, ";
+            cout << "R for reset, ";
+            cout << "X for exit: ";
             getUserChoice(ans);
         }
         else {

@@ -6,7 +6,7 @@
 #ifndef MomsCounter_h
 #define MomsCounter_h
 
-// class for a counter object
+// class for a mon's counter object
 class MomsCounter {
 private:
     int n_count;
