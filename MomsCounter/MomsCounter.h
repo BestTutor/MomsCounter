@@ -23,6 +23,27 @@ public:
     void IncrementOne() { n_count++; }
     
     void output(ostream &outs) { outs << "count : " << n_count << endl; }
+//    bool Overflow()
+//    {
+//        int ThouHundred;
+//        int TenOne;
+//        int Num_firsttwo;
+//        int Num_lasttwo;
+//        
+//        TenOne = n_count % 100;
+//        ThouHundred = (n_count - TenOne) / 100;
+//        Num_firsttwo = (ThouHundred - 100);
+//        Num_lasttwo = (n_count - 9999);
+//        
+//        if (n_count >= 9999) {
+//            cout<<"The amount of overflow is "<<(Num_firsttwo)<<"."<<(Num_lasttwo)<<endl;
+//            return false;
+//        }
+//        else
+//        {
+//            return true;
+//        }
+//    }
 };
 
 #endif /* MomsCounter_h */
